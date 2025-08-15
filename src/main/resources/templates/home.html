@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Employment System</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="bg-light">
+
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">Employment System</h1>
+        <p class="text-muted">Gestión simple y efectiva de empleados y compensaciones</p>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-12">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title mb-3">Área de funciones</h5>
+                    <p class="card-text">Accedé a las funcionalidades principales del sistema:</p>
+                    <div class="d-grid gap-2">
+                        <a class="btn btn-primary btn-lg" th:href="@{/employees/new}">Agregar Empleado</a>
+                        <a class="btn btn-outline-primary btn-lg" th:href="@{/employees/search}">Buscar Empleados</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-WZCyy2uE1ZnHRNnWXfNZ0fQmt3NV1TcvDBuONaLGkIFfE4o3GSCV23DrjK2nP8is"
+        crossorigin="anonymous"></script>
+</body>
+</html>
