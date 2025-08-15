@@ -112,9 +112,4 @@ spring.jpa.hibernate.ddl-auto=update
 └── target
 ```
 
----
-
-## 📄 Licencia
-
-MIT – Usalo libremente, mejoralo y compartilo 💡
 
